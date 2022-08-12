@@ -36,9 +36,9 @@ const Exercises = ({ bodyPart, exercises, setExercises }) => {
 
     fetchExercisesData();
   
-  }, [])
+}, [bodyPart])
   
-
+  
   return (
     <Box id="exercises" sx={{ mt: { lg: '109px'}}} mt="50px" p="20px">
       <Typography variant="h3" fontWeight="bold" sx={{ fontSize: { lg: '44px', xs: '30px' }}} mb="46px" >Showing Results</Typography>
