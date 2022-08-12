@@ -1,12 +1,14 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { Box } from '@mui/material';
-
+import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu'
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import ExerciseDetail from './pages/ExerciseDetail';
+
+
 
 function App() {
   return (
