@@ -48,6 +48,10 @@ body {
   flex-wrap: wrap;
 }
 
+.react-horizontal-scrolling-menu--inner-wrapper {
+  width: 100%;
+}
+
 .detail-image {
   width: 729px;
   height: 742px;
@@ -117,6 +121,7 @@ body {
     width: 500px;
   }
 
+
   .left-arrow,
   .right-arrow {
     position: static !important;
@@ -137,8 +142,12 @@ body {
 
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
   .exercise-card {
     width: 280px;
+  }
+  
+  .exercise-video {
+    margin-bottom: 30px;
   }
 }
